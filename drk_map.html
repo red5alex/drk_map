@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e22237c5f8d4f39af10b4b70cf1e894 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4e22237c5f8d4f39af10b4b70cf1e894" ></div>
+        
+</body>
+<script>    
+    
+            var map_4e22237c5f8d4f39af10b4b70cf1e894 = L.map(
+                "map_4e22237c5f8d4f39af10b4b70cf1e894",
+                {
+                    center: [52.190737049074066, 8.599967294491412],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+
+            
+
+        
+    
+            var tile_layer_a6b840bbc4854c0197c6bdf42c990158 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+            var marker_796df2fbba8c4c30b29d3c521c683721 = L.marker(
+                [52.2139919, 8.5404413],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_5c04681e716c4846aecaeeaae1fa7753 = L.popup({"maxWidth": 200});
+
+        
+            var html_c10a172b01fa4161b35edf482332b0fa = $(`<div id="html_c10a172b01fa4161b35edf482332b0fa" style="width: 100.0%; height: 100.0%;">Im Halloh 41, Bünde</div>`)[0];
+            popup_5c04681e716c4846aecaeeaae1fa7753.setContent(html_c10a172b01fa4161b35edf482332b0fa);
+        
+
+        marker_796df2fbba8c4c30b29d3c521c683721.bindPopup(popup_5c04681e716c4846aecaeeaae1fa7753)
+        ;
+
+        
+    
+    
+            var marker_e91c93371e574ea4a5e38f7a900ab06d = L.marker(
+                [52.1558131, 8.667496856068823],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_122e6d73b6b64e4b9db59fa79b4e549d = L.popup({"maxWidth": 200});
+
+        
+            var html_93ca8b0eb8f14009a0aa7f945ff1c398 = $(`<div id="html_93ca8b0eb8f14009a0aa7f945ff1c398" style="width: 100.0%; height: 100.0%;">Blumenstraße 38, Hiddenhausen</div>`)[0];
+            popup_122e6d73b6b64e4b9db59fa79b4e549d.setContent(html_93ca8b0eb8f14009a0aa7f945ff1c398);
+        
+
+        marker_e91c93371e574ea4a5e38f7a900ab06d.bindPopup(popup_122e6d73b6b64e4b9db59fa79b4e549d)
+        ;
+
+        
+    
+    
+            var marker_8fef88c472894c4eb220467d62025ed7 = L.marker(
+                [52.1946871, 8.5803376],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_466cfcc6fd2e4992b36efccb28e07ba0 = L.popup({"maxWidth": 200});
+
+        
+            var html_fd1e0ea7db934c89b90139179c45e472 = $(`<div id="html_fd1e0ea7db934c89b90139179c45e472" style="width: 100.0%; height: 100.0%;">Wittekindstraße 7, Bünde<br>Säcke stehen im Kellerausgang (Straßenseite)</div>`)[0];
+            popup_466cfcc6fd2e4992b36efccb28e07ba0.setContent(html_fd1e0ea7db934c89b90139179c45e472);
+        
+
+        marker_8fef88c472894c4eb220467d62025ed7.bindPopup(popup_466cfcc6fd2e4992b36efccb28e07ba0)
+        ;
+
+        
+    
+    
+            var marker_9168f0367b85466bab25465a06a05aca = L.marker(
+                [52.2073806, 8.598921583523966],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_4a2a73390df34fd18887a0548538ed4e = L.popup({"maxWidth": 200});
+
+        
+            var html_59a70d951a7241f9bc8e00712b5f567a = $(`<div id="html_59a70d951a7241f9bc8e00712b5f567a" style="width: 100.0%; height: 100.0%;">Lübbecker Str.98, Bünde</div>`)[0];
+            popup_4a2a73390df34fd18887a0548538ed4e.setContent(html_59a70d951a7241f9bc8e00712b5f567a);
+        
+
+        marker_9168f0367b85466bab25465a06a05aca.bindPopup(popup_4a2a73390df34fd18887a0548538ed4e)
+        ;
+
+        
+    
+    
+            var marker_fd2a5730a1024c4fa3024a900619409c = L.marker(
+                [52.205556900000005, 8.531233762646718],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_d478f9f2018545d5b2ac5334c0406a7f = L.popup({"maxWidth": 200});
+
+        
+            var html_20cdec4ebe474c24a830b88e2fe1bfdd = $(`<div id="html_20cdec4ebe474c24a830b88e2fe1bfdd" style="width: 100.0%; height: 100.0%;">Im Darfeld 26, Bünde</div>`)[0];
+            popup_d478f9f2018545d5b2ac5334c0406a7f.setContent(html_20cdec4ebe474c24a830b88e2fe1bfdd);
+        
+
+        marker_fd2a5730a1024c4fa3024a900619409c.bindPopup(popup_d478f9f2018545d5b2ac5334c0406a7f)
+        ;
+
+        
+    
+    
+            var marker_b6f25a25baed40e08b1a02f846ebcbe3 = L.marker(
+                [52.199375950000004, 8.575336069430582],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_693722b252534a08a7edd5a3206049e6 = L.popup({"maxWidth": 200});
+
+        
+            var html_1f0b7984f5094763bed58b957a8efe66 = $(`<div id="html_1f0b7984f5094763bed58b957a8efe66" style="width: 100.0%; height: 100.0%;">Brüderstraße 8, Bünde</div>`)[0];
+            popup_693722b252534a08a7edd5a3206049e6.setContent(html_1f0b7984f5094763bed58b957a8efe66);
+        
+
+        marker_b6f25a25baed40e08b1a02f846ebcbe3.bindPopup(popup_693722b252534a08a7edd5a3206049e6)
+        ;
+
+        
+    
+    
+            var marker_7f3d8e226c784892ac30eba20aec3138 = L.marker(
+                [52.170494649999995, 8.58592915],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_5c114fe7b2644cb08f7d7e2e2a82d66b = L.popup({"maxWidth": 200});
+
+        
+            var html_5530f16b6193483caa72ea8b76f76a6d = $(`<div id="html_5530f16b6193483caa72ea8b76f76a6d" style="width: 100.0%; height: 100.0%;">Wichernstraße 9, Bünde</div>`)[0];
+            popup_5c114fe7b2644cb08f7d7e2e2a82d66b.setContent(html_5530f16b6193483caa72ea8b76f76a6d);
+        
+
+        marker_7f3d8e226c784892ac30eba20aec3138.bindPopup(popup_5c114fe7b2644cb08f7d7e2e2a82d66b)
+        ;
+
+        
+    
+    
+            var marker_874c6cb6cda449f89a0ededcf5eb44ff = L.marker(
+                [52.19587585, 8.587888184000965],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_e60410608ac64c1eabe51dc48eb3324b = L.popup({"maxWidth": 200});
+
+        
+            var html_e6ffd19a10874e809e88a51523095b73 = $(`<div id="html_e6ffd19a10874e809e88a51523095b73" style="width: 100.0%; height: 100.0%;">Moltkestraße 7, Bünde</div>`)[0];
+            popup_e60410608ac64c1eabe51dc48eb3324b.setContent(html_e6ffd19a10874e809e88a51523095b73);
+        
+
+        marker_874c6cb6cda449f89a0ededcf5eb44ff.bindPopup(popup_e60410608ac64c1eabe51dc48eb3324b)
+        ;
+
+        
+    
+    
+            var marker_f4538f812d59438aac1ea751f712fbdf = L.marker(
+                [52.21063155, 8.602876042601958],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_c578915623484f849a0eb128d385f0db = L.popup({"maxWidth": 200});
+
+        
+            var html_678501ad536748e9b2617edbe91e4942 = $(`<div id="html_678501ad536748e9b2617edbe91e4942" style="width: 100.0%; height: 100.0%;">Kiebitzweg 6, Bünde</div>`)[0];
+            popup_c578915623484f849a0eb128d385f0db.setContent(html_678501ad536748e9b2617edbe91e4942);
+        
+
+        marker_f4538f812d59438aac1ea751f712fbdf.bindPopup(popup_c578915623484f849a0eb128d385f0db)
+        ;
+
+        
+    
+    
+            var marker_85c6879ca92e45d6a24cf3bb6d3b1928 = L.marker(
+                [52.20061844999999, 8.517328574701967],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_3ff894d6cede48308fccc9fbb49460c0 = L.popup({"maxWidth": 200});
+
+        
+            var html_f249bf7fa6554b58ba6d23f295b6dafa = $(`<div id="html_f249bf7fa6554b58ba6d23f295b6dafa" style="width: 100.0%; height: 100.0%;">Vor dem Bruche 33, Bünde<br>Auf dem Hof neben der Tonnengarage.</div>`)[0];
+            popup_3ff894d6cede48308fccc9fbb49460c0.setContent(html_f249bf7fa6554b58ba6d23f295b6dafa);
+        
+
+        marker_85c6879ca92e45d6a24cf3bb6d3b1928.bindPopup(popup_3ff894d6cede48308fccc9fbb49460c0)
+        ;
+
+        
+    
+    
+            var marker_754094b55bcc408db28df6216699b326 = L.marker(
+                [52.1107203, 8.430779362221024],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_1490036663e44c1bac7a61f01066c8a0 = L.popup({"maxWidth": 200});
+
+        
+            var html_131733391ba246c7a429e30ee29b4d84 = $(`<div id="html_131733391ba246c7a429e30ee29b4d84" style="width: 100.0%; height: 100.0%;">In der Mark, 25, Spenge<br>An der Hof Einfahrt </div>`)[0];
+            popup_1490036663e44c1bac7a61f01066c8a0.setContent(html_131733391ba246c7a429e30ee29b4d84);
+        
+
+        marker_754094b55bcc408db28df6216699b326.bindPopup(popup_1490036663e44c1bac7a61f01066c8a0)
+        ;
+
+        
+    
+    
+            var marker_92818031f13f477c8eacc962fc2a4a8f = L.marker(
+                [52.195863599999996, 8.59012824573356],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_0b1f9188af2743c5927ff40be5590ae3 = L.popup({"maxWidth": 200});
+
+        
+            var html_8c8489121bc84a7489db71e460b807fa = $(`<div id="html_8c8489121bc84a7489db71e460b807fa" style="width: 100.0%; height: 100.0%;">Moltkestr.21, Bünde</div>`)[0];
+            popup_0b1f9188af2743c5927ff40be5590ae3.setContent(html_8c8489121bc84a7489db71e460b807fa);
+        
+
+        marker_92818031f13f477c8eacc962fc2a4a8f.bindPopup(popup_0b1f9188af2743c5927ff40be5590ae3)
+        ;
+
+        
+    
+    
+            var marker_7c61999d83b24eafa195ff290fc0e097 = L.marker(
+                [52.19981265, 8.56215345],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_777c51b8fe23407d90eb41c072a836ed = L.popup({"maxWidth": 200});
+
+        
+            var html_4e753bd32b59439db25b674c9f717334 = $(`<div id="html_4e753bd32b59439db25b674c9f717334" style="width: 100.0%; height: 100.0%;">Hochstraße 61, Bünde</div>`)[0];
+            popup_777c51b8fe23407d90eb41c072a836ed.setContent(html_4e753bd32b59439db25b674c9f717334);
+        
+
+        marker_7c61999d83b24eafa195ff290fc0e097.bindPopup(popup_777c51b8fe23407d90eb41c072a836ed)
+        ;
+
+        
+    
+    
+            var marker_2b589791520c4d419dbf9e7db2ac5e24 = L.marker(
+                [52.201012750000004, 8.635659417654173],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_1fc316b26e4547fa9e24ceb6bf97caf9 = L.popup({"maxWidth": 200});
+
+        
+            var html_4b42dfc5adaa4c01a0b1a8a88e29f2fb = $(`<div id="html_4b42dfc5adaa4c01a0b1a8a88e29f2fb" style="width: 100.0%; height: 100.0%;">Rottlandweg 15, Kirchlengern</div>`)[0];
+            popup_1fc316b26e4547fa9e24ceb6bf97caf9.setContent(html_4b42dfc5adaa4c01a0b1a8a88e29f2fb);
+        
+
+        marker_2b589791520c4d419dbf9e7db2ac5e24.bindPopup(popup_1fc316b26e4547fa9e24ceb6bf97caf9)
+        ;
+
+        
+    
+    
+            var marker_7116c206dbf649209263a6fc36271b8c = L.marker(
+                [52.1746767, 8.59809072015019],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_ef0dedd61a944849a070de771c37dac3 = L.popup({"maxWidth": 200});
+
+        
+            var html_fed60340b8cc43778caf2ae98299d9fa = $(`<div id="html_fed60340b8cc43778caf2ae98299d9fa" style="width: 100.0%; height: 100.0%;">Waldstraße 86, Bünde</div>`)[0];
+            popup_ef0dedd61a944849a070de771c37dac3.setContent(html_fed60340b8cc43778caf2ae98299d9fa);
+        
+
+        marker_7116c206dbf649209263a6fc36271b8c.bindPopup(popup_ef0dedd61a944849a070de771c37dac3)
+        ;
+
+        
+    
+    
+            var marker_aa50f145fec941099fd4e2ff766ff3c4 = L.marker(
+                [52.1399415, 8.50327128382353],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_31320d07e65940d9801d8bdcb9aa03ca = L.popup({"maxWidth": 200});
+
+        
+            var html_61300bd83f2d436ba7f68d6703f93a7b = $(`<div id="html_61300bd83f2d436ba7f68d6703f93a7b" style="width: 100.0%; height: 100.0%;">Taubenweg 16, Enger<br>Bitte klingeln!  Frau Büscher</div>`)[0];
+            popup_31320d07e65940d9801d8bdcb9aa03ca.setContent(html_61300bd83f2d436ba7f68d6703f93a7b);
+        
+
+        marker_aa50f145fec941099fd4e2ff766ff3c4.bindPopup(popup_31320d07e65940d9801d8bdcb9aa03ca)
+        ;
+
+        
+    
+    
+            var marker_0bea508fc68f47ed81eada8facfc2df3 = L.marker(
+                [52.17928825, 8.605280807124043],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_55d661fffb0d40fdb2dea88e88efe180 = L.popup({"maxWidth": 200});
+
+        
+            var html_a07b770f819444ebaaa1b3a2d03fba61 = $(`<div id="html_a07b770f819444ebaaa1b3a2d03fba61" style="width: 100.0%; height: 100.0%;">Rotdornstraße 42, Bünde</div>`)[0];
+            popup_55d661fffb0d40fdb2dea88e88efe180.setContent(html_a07b770f819444ebaaa1b3a2d03fba61);
+        
+
+        marker_0bea508fc68f47ed81eada8facfc2df3.bindPopup(popup_55d661fffb0d40fdb2dea88e88efe180)
+        ;
+
+        
+    
+    
+            var marker_45089de7eebc42b6a2d89a54ab77141b = L.marker(
+                [52.20559025, 8.458641901351054],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_f376d07ca17e4b73b1e2733da80a287f = L.popup({"maxWidth": 200});
+
+        
+            var html_8df4cb1a3c714588933b4482e7c59ce1 = $(`<div id="html_8df4cb1a3c714588933b4482e7c59ce1" style="width: 100.0%; height: 100.0%;">Hindenburgstraße 6, Rödinghausen<br>Bruchmühlen</div>`)[0];
+            popup_f376d07ca17e4b73b1e2733da80a287f.setContent(html_8df4cb1a3c714588933b4482e7c59ce1);
+        
+
+        marker_45089de7eebc42b6a2d89a54ab77141b.bindPopup(popup_f376d07ca17e4b73b1e2733da80a287f)
+        ;
+
+        
+    
+    
+            var marker_b16ff730ad2f4a77aa234297cece79c1 = L.marker(
+                [52.2330094, 8.51905152552879],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_311ce62a980e49948868d7e4d8f88323 = L.popup({"maxWidth": 200});
+
+        
+            var html_a729e8a7886a4cca8980afd07cea2f5d = $(`<div id="html_a729e8a7886a4cca8980afd07cea2f5d" style="width: 100.0%; height: 100.0%;">Bahnhofstraße 92, Rödinghausen</div>`)[0];
+            popup_311ce62a980e49948868d7e4d8f88323.setContent(html_a729e8a7886a4cca8980afd07cea2f5d);
+        
+
+        marker_b16ff730ad2f4a77aa234297cece79c1.bindPopup(popup_311ce62a980e49948868d7e4d8f88323)
+        ;
+
+        
+    
+    
+            var marker_39a47b27aaa54f038aa245edd240a36d = L.marker(
+                [52.170252899999994, 8.632313067822736],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_2fc0080ba4244f81ab5d34ec1ee475d5 = L.popup({"maxWidth": 200});
+
+        
+            var html_7c9cc30e15fc47708fd299487b0eeb9e = $(`<div id="html_7c9cc30e15fc47708fd299487b0eeb9e" style="width: 100.0%; height: 100.0%;">Görlitzer Straße 16, Hiddenhausen<br>Wir stellen die Säcke an die Straße. </div>`)[0];
+            popup_2fc0080ba4244f81ab5d34ec1ee475d5.setContent(html_7c9cc30e15fc47708fd299487b0eeb9e);
+        
+
+        marker_39a47b27aaa54f038aa245edd240a36d.bindPopup(popup_2fc0080ba4244f81ab5d34ec1ee475d5)
+        ;
+
+        
+    
+    
+            var marker_b7c0521dc5794947ad1183aa83760c45 = L.marker(
+                [52.2352085, 8.7093828],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_23f4afa5227748728ebf6070214ac23c = L.popup({"maxWidth": 200});
+
+        
+            var html_11af5d956f3a46c18403bec6c28a2a4c = $(`<div id="html_11af5d956f3a46c18403bec6c28a2a4c" style="width: 100.0%; height: 100.0%;">Schweriner Straße 16, Löhne<br>in der Garage </div>`)[0];
+            popup_23f4afa5227748728ebf6070214ac23c.setContent(html_11af5d956f3a46c18403bec6c28a2a4c);
+        
+
+        marker_b7c0521dc5794947ad1183aa83760c45.bindPopup(popup_23f4afa5227748728ebf6070214ac23c)
+        ;
+
+        
+    
+    
+            var marker_66007347bdad4cf0b64293b99228d699 = L.marker(
+                [52.19136625, 8.60083655542563],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_463120a9d9e940b992a557ef263ee497 = L.popup({"maxWidth": 200});
+
+        
+            var html_e1aab4b1598d480aaed07321c0a7884d = $(`<div id="html_e1aab4b1598d480aaed07321c0a7884d" style="width: 100.0%; height: 100.0%;">Brunnenallee 107, Bünde<br>Steht an der Garage</div>`)[0];
+            popup_463120a9d9e940b992a557ef263ee497.setContent(html_e1aab4b1598d480aaed07321c0a7884d);
+        
+
+        marker_66007347bdad4cf0b64293b99228d699.bindPopup(popup_463120a9d9e940b992a557ef263ee497)
+        ;
+
+        
+    
+    
+            var marker_b9584198a6354cf5817c20b03d66f7da = L.marker(
+                [52.20782845, 8.642573995659795],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_de8bd8175bcb4d6195766e4b19fa895d = L.popup({"maxWidth": 200});
+
+        
+            var html_3cb50cfea9f141c2892b1633ca3c5f35 = $(`<div id="html_3cb50cfea9f141c2892b1633ca3c5f35" style="width: 100.0%; height: 100.0%;">Bökensiekweg 34, Kirchlengern<br>gegenüber Gesamtschule</div>`)[0];
+            popup_de8bd8175bcb4d6195766e4b19fa895d.setContent(html_3cb50cfea9f141c2892b1633ca3c5f35);
+        
+
+        marker_b9584198a6354cf5817c20b03d66f7da.bindPopup(popup_de8bd8175bcb4d6195766e4b19fa895d)
+        ;
+
+        
+    
+    
+            var marker_ec57e9d57d3a4579b2d915ab876bc130 = L.marker(
+                [52.201198149999996, 8.559222489192349],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_0b7aeabff35c4b60aca959e28a01b02d = L.popup({"maxWidth": 200});
+
+        
+            var html_85e769a977ad4b4885140efce5ff3fd7 = $(`<div id="html_85e769a977ad4b4885140efce5ff3fd7" style="width: 100.0%; height: 100.0%;">Stadionstraße 40, Bünde</div>`)[0];
+            popup_0b7aeabff35c4b60aca959e28a01b02d.setContent(html_85e769a977ad4b4885140efce5ff3fd7);
+        
+
+        marker_ec57e9d57d3a4579b2d915ab876bc130.bindPopup(popup_0b7aeabff35c4b60aca959e28a01b02d)
+        ;
+
+        
+    
+    
+            var marker_bf89040a83e04c069c52933134102faa = L.marker(
+                [52.20901285, 8.509749030764308],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_fe16516d21bb47ac98cfc752331681bb = L.popup({"maxWidth": 200});
+
+        
+            var html_360ebdc621e54fda9347bd0a9731e1d1 = $(`<div id="html_360ebdc621e54fda9347bd0a9731e1d1" style="width: 100.0%; height: 100.0%;">Schinkestraße 55, Bünde</div>`)[0];
+            popup_fe16516d21bb47ac98cfc752331681bb.setContent(html_360ebdc621e54fda9347bd0a9731e1d1);
+        
+
+        marker_bf89040a83e04c069c52933134102faa.bindPopup(popup_fe16516d21bb47ac98cfc752331681bb)
+        ;
+
+        
+    
+    
+            var marker_7144e374bc564843acc60ffb3e8409a7 = L.marker(
+                [52.2341245, 8.5781159],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_c28546a3c4b94f6697a7a6a645c235d4 = L.popup({"maxWidth": 200});
+
+        
+            var html_0ee3a2d112274f15aa65217f41cba27b = $(`<div id="html_0ee3a2d112274f15aa65217f41cba27b" style="width: 100.0%; height: 100.0%;">Wiehenstraße 90, Bünde<br>Bünde-Dünne</div>`)[0];
+            popup_c28546a3c4b94f6697a7a6a645c235d4.setContent(html_0ee3a2d112274f15aa65217f41cba27b);
+        
+
+        marker_7144e374bc564843acc60ffb3e8409a7.bindPopup(popup_c28546a3c4b94f6697a7a6a645c235d4)
+        ;
+
+        
+    
+    
+            var marker_350fe3a93a694a09a7c14da579f8e488 = L.marker(
+                [52.19523745, 8.5571068088875],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_27616b64a98f403a909b3bff9a27a3d3 = L.popup({"maxWidth": 200});
+
+        
+            var html_20fb127c1b9b432dbe4e438eae747a23 = $(`<div id="html_20fb127c1b9b432dbe4e438eae747a23" style="width: 100.0%; height: 100.0%;">Wilhelmstr. 141A, Bünde<br>Frau Kuhlhoff (6599413) Wird rausgestellt!</div>`)[0];
+            popup_27616b64a98f403a909b3bff9a27a3d3.setContent(html_20fb127c1b9b432dbe4e438eae747a23);
+        
+
+        marker_350fe3a93a694a09a7c14da579f8e488.bindPopup(popup_27616b64a98f403a909b3bff9a27a3d3)
+        ;
+
+        
+    
+    
+            var marker_627f7cbe582c452abee79f814cef4bb5 = L.marker(
+                [52.194799, 8.7630653],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_b170d4f2c8d54d16ab3cd2fada4aa525 = L.popup({"maxWidth": 200});
+
+        
+            var html_5168957e791847b591c3bee06a112247 = $(`<div id="html_5168957e791847b591c3bee06a112247" style="width: 100.0%; height: 100.0%;">Hochstr. 49, Löhne<br>Kann die Kleidung auch in einem Karton vors Haus gestellt werden, statt Tüten?</div>`)[0];
+            popup_b170d4f2c8d54d16ab3cd2fada4aa525.setContent(html_5168957e791847b591c3bee06a112247);
+        
+
+        marker_627f7cbe582c452abee79f814cef4bb5.bindPopup(popup_b170d4f2c8d54d16ab3cd2fada4aa525)
+        ;
+
+        
+    
+    
+            var marker_5f1624b4e7e74d84af8d03c9a279f58f = L.marker(
+                [52.1212261, 8.426712314983318],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_88e0b88d60114aa0aa80ffffad4263fe = L.popup({"maxWidth": 200});
+
+        
+            var html_30e390a9532d4f79975a24d8aecb7b7a = $(`<div id="html_30e390a9532d4f79975a24d8aecb7b7a" style="width: 100.0%; height: 100.0%;">Kreuzfeld 168, Spenge</div>`)[0];
+            popup_88e0b88d60114aa0aa80ffffad4263fe.setContent(html_30e390a9532d4f79975a24d8aecb7b7a);
+        
+
+        marker_5f1624b4e7e74d84af8d03c9a279f58f.bindPopup(popup_88e0b88d60114aa0aa80ffffad4263fe)
+        ;
+
+        
+    
+    
+            var marker_09704b61ea8d4754878165da8a42219c = L.marker(
+                [52.17704235, 8.5666935722566],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_d3ac40fa0de94656b80f403e1f610f25 = L.popup({"maxWidth": 200});
+
+        
+            var html_621a0a83c12f49428308e21fc8dd10ac = $(`<div id="html_621a0a83c12f49428308e21fc8dd10ac" style="width: 100.0%; height: 100.0%;">Mendelstr.29 , Bünde<br>Bitte klingeln</div>`)[0];
+            popup_d3ac40fa0de94656b80f403e1f610f25.setContent(html_621a0a83c12f49428308e21fc8dd10ac);
+        
+
+        marker_09704b61ea8d4754878165da8a42219c.bindPopup(popup_d3ac40fa0de94656b80f403e1f610f25)
+        ;
+
+        
+    
+    
+            var marker_0e197b58fa8e41c09ad0a53e600e8f60 = L.marker(
+                [52.1422248, 8.4854307],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_c1e8c33de6c941539475788aae70f054 = L.popup({"maxWidth": 200});
+
+        
+            var html_a2185b7dcc924bfca9303cbe8e9a8b5e = $(`<div id="html_a2185b7dcc924bfca9303cbe8e9a8b5e" style="width: 100.0%; height: 100.0%;">Poststr 11-13, Spenge<br>Martins-Stift, Abholung über Emanuel-Kant-Straße/ Anlieferung Martins-Stift Kontaktperson  Herr Salzmann 0171-6806913</div>`)[0];
+            popup_c1e8c33de6c941539475788aae70f054.setContent(html_a2185b7dcc924bfca9303cbe8e9a8b5e);
+        
+
+        marker_0e197b58fa8e41c09ad0a53e600e8f60.bindPopup(popup_c1e8c33de6c941539475788aae70f054)
+        ;
+
+        
+    
+    
+            var marker_c8b8fad3b20449c0a11d2abd3248445e = L.marker(
+                [52.2051087, 8.474767280133502],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_bc6ceb9238e94c3896332a65a4478bca = L.popup({"maxWidth": 200});
+
+        
+            var html_0da8d5693af84af08da690e85693c821 = $(`<div id="html_0da8d5693af84af08da690e85693c821" style="width: 100.0%; height: 100.0%;">Am Maschbrink 41, Rödinghausen<br>Säcke stehen an der Straße </div>`)[0];
+            popup_bc6ceb9238e94c3896332a65a4478bca.setContent(html_0da8d5693af84af08da690e85693c821);
+        
+
+        marker_c8b8fad3b20449c0a11d2abd3248445e.bindPopup(popup_bc6ceb9238e94c3896332a65a4478bca)
+        ;
+
+        
+    
+    
+            var marker_3e1e8480e2f44ddc81615f9d643097e9 = L.marker(
+                [52.181357500000004, 8.749583754607194],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_bf61abef97da486db204a38d402ee908 = L.popup({"maxWidth": 200});
+
+        
+            var html_764fb4fa317d4fd5afe905402afaad04 = $(`<div id="html_764fb4fa317d4fd5afe905402afaad04" style="width: 100.0%; height: 100.0%;">Sudbachtal 21, Löhne<br>Rechts hinter dem Gartentörchen, vor der Seitentür. </div>`)[0];
+            popup_bf61abef97da486db204a38d402ee908.setContent(html_764fb4fa317d4fd5afe905402afaad04);
+        
+
+        marker_3e1e8480e2f44ddc81615f9d643097e9.bindPopup(popup_bf61abef97da486db204a38d402ee908)
+        ;
+
+        
+    
+    
+            var marker_ae3a927c7ce143d9b1fa8c3d179e17d5 = L.marker(
+                [52.1869465, 8.5723973],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_ca1ef64ba2d54112bf86ac1d209555ed = L.popup({"maxWidth": 200});
+
+        
+            var html_e9baeaeb9ca44eff8e50c28f8055c1dd = $(`<div id="html_e9baeaeb9ca44eff8e50c28f8055c1dd" style="width: 100.0%; height: 100.0%;">Bertramstraße, Bünde<br>Die Säcke stehen auf der Ecke Sachsenstr./Bertramstraße. Hinter Radio Biermann.</div>`)[0];
+            popup_ca1ef64ba2d54112bf86ac1d209555ed.setContent(html_e9baeaeb9ca44eff8e50c28f8055c1dd);
+        
+
+        marker_ae3a927c7ce143d9b1fa8c3d179e17d5.bindPopup(popup_ca1ef64ba2d54112bf86ac1d209555ed)
+        ;
+
+        
+    
+    
+            var marker_e58ac833de1040d4baae809a211e5685 = L.marker(
+                [52.198404749999995, 8.575649174678489],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_62f42ed0c3c849e88bc47423baf08127 = L.popup({"maxWidth": 200});
+
+        
+            var html_bc7ee489b8b647e7a353395fa73172bb = $(`<div id="html_bc7ee489b8b647e7a353395fa73172bb" style="width: 100.0%; height: 100.0%;">Ernst-Reuter-Str. 9, Bünde<br>Frau Hartlage (61491) wohnt Ecke Lette-Vorbeck-Str. und stellt wegen einer Sperrung die Kleidersäcke an die Absperrung!</div>`)[0];
+            popup_62f42ed0c3c849e88bc47423baf08127.setContent(html_bc7ee489b8b647e7a353395fa73172bb);
+        
+
+        marker_e58ac833de1040d4baae809a211e5685.bindPopup(popup_62f42ed0c3c849e88bc47423baf08127)
+        ;
+
+        
+    
+    
+            var marker_35cf07d3300a4b10bb60f9144863ac59 = L.marker(
+                [52.204904150000004, 8.54998903355581],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_4de2f9f20744499eabb2f83ed8116be4 = L.popup({"maxWidth": 200});
+
+        
+            var html_a28a797f52564932b1808a4414b20922 = $(`<div id="html_a28a797f52564932b1808a4414b20922" style="width: 100.0%; height: 100.0%;">Holserstraße 125, Bünde</div>`)[0];
+            popup_4de2f9f20744499eabb2f83ed8116be4.setContent(html_a28a797f52564932b1808a4414b20922);
+        
+
+        marker_35cf07d3300a4b10bb60f9144863ac59.bindPopup(popup_4de2f9f20744499eabb2f83ed8116be4)
+        ;
+
+        
+    
+    
+            var marker_5b40fb813cdf4715ab773b08bd9f1fc7 = L.marker(
+                [52.1959259, 8.5474794],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_8eacd7939569496d9075162760f0dfcd = L.popup({"maxWidth": 200});
+
+        
+            var html_59b21c68b0ed49aaac93b6d149606bd1 = $(`<div id="html_59b21c68b0ed49aaac93b6d149606bd1" style="width: 100.0%; height: 100.0%;">Hansastraße 13, Bünde</div>`)[0];
+            popup_8eacd7939569496d9075162760f0dfcd.setContent(html_59b21c68b0ed49aaac93b6d149606bd1);
+        
+
+        marker_5b40fb813cdf4715ab773b08bd9f1fc7.bindPopup(popup_8eacd7939569496d9075162760f0dfcd)
+        ;
+
+        
+    
+    
+            var marker_af2e2caa1805405582663b4381ded3af = L.marker(
+                [52.19574555, 8.553656067411868],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_65782a50e6fe4629a022bd4aab6a154e = L.popup({"maxWidth": 200});
+
+        
+            var html_9b64f731a41b48f08d25697c9660aac6 = $(`<div id="html_9b64f731a41b48f08d25697c9660aac6" style="width: 100.0%; height: 100.0%;">Weidemasch Str. 31, Bünde</div>`)[0];
+            popup_65782a50e6fe4629a022bd4aab6a154e.setContent(html_9b64f731a41b48f08d25697c9660aac6);
+        
+
+        marker_af2e2caa1805405582663b4381ded3af.bindPopup(popup_65782a50e6fe4629a022bd4aab6a154e)
+        ;
+
+        
+    
+    
+            var marker_310fe1ca12d34ef4b86fcd853f95ce88 = L.marker(
+                [52.1288923, 8.8889091],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_7110d21c62964d50b342e24016a5e5c1 = L.popup({"maxWidth": 200});
+
+        
+            var html_a875e3c613b14d4d89fd48ca89659b7b = $(`<div id="html_a875e3c613b14d4d89fd48ca89659b7b" style="width: 100.0%; height: 100.0%;">Bentorfer Straße 31, Vlotho</div>`)[0];
+            popup_7110d21c62964d50b342e24016a5e5c1.setContent(html_a875e3c613b14d4d89fd48ca89659b7b);
+        
+
+        marker_310fe1ca12d34ef4b86fcd853f95ce88.bindPopup(popup_7110d21c62964d50b342e24016a5e5c1)
+        ;
+
+        
+    
+    
+            var marker_8604e7a8f44744cebb9c32ab69d20cb1 = L.marker(
+                [52.1346491, 8.779454024673665],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_00f5f69b4fd54bff85f6564ac1c8db79 = L.popup({"maxWidth": 200});
+
+        
+            var html_336bca3ce490499fa0e1d45a16041329 = $(`<div id="html_336bca3ce490499fa0e1d45a16041329" style="width: 100.0%; height: 100.0%;">Heinrich-Wintermeyer Str.11, Vlotho</div>`)[0];
+            popup_00f5f69b4fd54bff85f6564ac1c8db79.setContent(html_336bca3ce490499fa0e1d45a16041329);
+        
+
+        marker_8604e7a8f44744cebb9c32ab69d20cb1.bindPopup(popup_00f5f69b4fd54bff85f6564ac1c8db79)
+        ;
+
+        
+    
+    
+            var marker_354d162c13a04f37aa1c628c8b1f178a = L.marker(
+                [52.167705549999994, 8.639079550000002],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_3f48d2b1b48148658b1873f40a8dfca2 = L.popup({"maxWidth": 200});
+
+        
+            var html_255118731a4f4ba3b1a7e05e1edc7900 = $(`<div id="html_255118731a4f4ba3b1a7e05e1edc7900" style="width: 100.0%; height: 100.0%;">Sternberger Str. 30, Hiddenhausen</div>`)[0];
+            popup_3f48d2b1b48148658b1873f40a8dfca2.setContent(html_255118731a4f4ba3b1a7e05e1edc7900);
+        
+
+        marker_354d162c13a04f37aa1c628c8b1f178a.bindPopup(popup_3f48d2b1b48148658b1873f40a8dfca2)
+        ;
+
+        
+    
+    
+            var marker_932b6b377d094511aa25d0c5ca46e0e5 = L.marker(
+                [52.1995814, 8.59431758284153],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_1a8c2caef7bc49c7a75b6bf1e5a2e103 = L.popup({"maxWidth": 200});
+
+        
+            var html_96694f5c23e143d8871ae7304a112a7d = $(`<div id="html_96694f5c23e143d8871ae7304a112a7d" style="width: 100.0%; height: 100.0%;">Brunnenallee 13, Bünde<br>Bürgersteig </div>`)[0];
+            popup_1a8c2caef7bc49c7a75b6bf1e5a2e103.setContent(html_96694f5c23e143d8871ae7304a112a7d);
+        
+
+        marker_932b6b377d094511aa25d0c5ca46e0e5.bindPopup(popup_1a8c2caef7bc49c7a75b6bf1e5a2e103)
+        ;
+
+        
+    
+    
+            var marker_00fc2e9f20034db5ba79d800c6cf3323 = L.marker(
+                [52.207206049999996, 8.569717153657779],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_9d959b4ed1424070b9d8037df5463b7c = L.popup({"maxWidth": 200});
+
+        
+            var html_d3664ce1a2e8496f97e12dc2b811866a = $(`<div id="html_d3664ce1a2e8496f97e12dc2b811866a" style="width: 100.0%; height: 100.0%;">Wedekindstraße 31, Bünde<br>Richtung Nelkenstraße in der Ecke</div>`)[0];
+            popup_9d959b4ed1424070b9d8037df5463b7c.setContent(html_d3664ce1a2e8496f97e12dc2b811866a);
+        
+
+        marker_00fc2e9f20034db5ba79d800c6cf3323.bindPopup(popup_9d959b4ed1424070b9d8037df5463b7c)
+        ;
+
+        
+    
+    
+            var marker_581a173c5e1344699945985f0225d7a5 = L.marker(
+                [52.207677, 8.6799126],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_d33f209a574843db92de7bbc7f4fba74 = L.popup({"maxWidth": 200});
+
+        
+            var html_fa24c506a0ea4a1fb8c66d4dac6e4e3b = $(`<div id="html_fa24c506a0ea4a1fb8c66d4dac6e4e3b" style="width: 100.0%; height: 100.0%;">Kornweg 7, Löhne<br>Vor der Garage </div>`)[0];
+            popup_d33f209a574843db92de7bbc7f4fba74.setContent(html_fa24c506a0ea4a1fb8c66d4dac6e4e3b);
+        
+
+        marker_581a173c5e1344699945985f0225d7a5.bindPopup(popup_d33f209a574843db92de7bbc7f4fba74)
+        ;
+
+        
+    
+    
+            var marker_3a38e40b848e48b596e995329948ad20 = L.marker(
+                [52.199346750000004, 8.78581545000001],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_f0eca6b28d92412f87d7691d1f19ec51 = L.popup({"maxWidth": 200});
+
+        
+            var html_6840034589a144b6b4cbdfd6180a9c3f = $(`<div id="html_6840034589a144b6b4cbdfd6180a9c3f" style="width: 100.0%; height: 100.0%;">Osterbachweg 12, Löhne<br>Kartons/Plastiksäcke stehen an der Straße </div>`)[0];
+            popup_f0eca6b28d92412f87d7691d1f19ec51.setContent(html_6840034589a144b6b4cbdfd6180a9c3f);
+        
+
+        marker_3a38e40b848e48b596e995329948ad20.bindPopup(popup_f0eca6b28d92412f87d7691d1f19ec51)
+        ;
+
+        
+    
+    
+            var marker_6b1945c048d640adbd63140aed47cc72 = L.marker(
+                [52.2366709, 8.6066584],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_327806ddc59e44a693c64f26e140e65b = L.popup({"maxWidth": 200});
+
+        
+            var html_753a645e7750464a9aff3aab12303ba3 = $(`<div id="html_753a645e7750464a9aff3aab12303ba3" style="width: 100.0%; height: 100.0%;">Bäderstraße 147, Bünde</div>`)[0];
+            popup_327806ddc59e44a693c64f26e140e65b.setContent(html_753a645e7750464a9aff3aab12303ba3);
+        
+
+        marker_6b1945c048d640adbd63140aed47cc72.bindPopup(popup_327806ddc59e44a693c64f26e140e65b)
+        ;
+
+        
+    
+    
+            var marker_bcb6ff6ba1f24e8fb256fd8ee936685f = L.marker(
+                [52.17036645, 8.857720109898843],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_ce3bbf5d2a3145a99e876f7926c8fc70 = L.popup({"maxWidth": 200});
+
+        
+            var html_85077979d4954c439f8f4459a58a5429 = $(`<div id="html_85077979d4954c439f8f4459a58a5429" style="width: 100.0%; height: 100.0%;">Garzweg 26, Vlotho<br>steht vor der Tür</div>`)[0];
+            popup_ce3bbf5d2a3145a99e876f7926c8fc70.setContent(html_85077979d4954c439f8f4459a58a5429);
+        
+
+        marker_bcb6ff6ba1f24e8fb256fd8ee936685f.bindPopup(popup_ce3bbf5d2a3145a99e876f7926c8fc70)
+        ;
+
+        
+    
+    
+            var marker_40833475cc4e4d4c98c0ad045532f4cb = L.marker(
+                [52.1850498, 8.600160489646267],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_9614634aa5144f3ca7adb8f5fb3c2dcb = L.popup({"maxWidth": 200});
+
+        
+            var html_d88bb6c07bec41128aaa6683c4b18148 = $(`<div id="html_d88bb6c07bec41128aaa6683c4b18148" style="width: 100.0%; height: 100.0%;">Langenkamp 26, Bünde</div>`)[0];
+            popup_9614634aa5144f3ca7adb8f5fb3c2dcb.setContent(html_d88bb6c07bec41128aaa6683c4b18148);
+        
+
+        marker_40833475cc4e4d4c98c0ad045532f4cb.bindPopup(popup_9614634aa5144f3ca7adb8f5fb3c2dcb)
+        ;
+
+        
+    
+    
+            var marker_c215f030fe4f4c508c910893b5571cf8 = L.marker(
+                [52.194799, 8.7630653],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_f15c9860223742a08169d27bf756e7ed = L.popup({"maxWidth": 200});
+
+        
+            var html_be7cd5fefc0d4b5a9c5745ce4871b28b = $(`<div id="html_be7cd5fefc0d4b5a9c5745ce4871b28b" style="width: 100.0%; height: 100.0%;">Hochstr. 49, Löhne<br>Dir Säcke stehen direkt hinter dem Tor, mit einem Zettel "DRK Kleiderspende", da wir verschiedene Tüten haben.  Bitte das Tor wieder schließen (Hund), Dankeschöne :-) </div>`)[0];
+            popup_f15c9860223742a08169d27bf756e7ed.setContent(html_be7cd5fefc0d4b5a9c5745ce4871b28b);
+        
+
+        marker_c215f030fe4f4c508c910893b5571cf8.bindPopup(popup_f15c9860223742a08169d27bf756e7ed)
+        ;
+
+        
+    
+    
+            var marker_9a522e73d97644a08db10d5bc9531e31 = L.marker(
+                [52.2274298, 8.621517414019262],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_f7ba77a339e6434b84d7b269dd479958 = L.popup({"maxWidth": 200});
+
+        
+            var html_ffb4efaa7b6341af9482bafbc07d187f = $(`<div id="html_ffb4efaa7b6341af9482bafbc07d187f" style="width: 100.0%; height: 100.0%;">Reinkenort 70, Kirchlengern</div>`)[0];
+            popup_f7ba77a339e6434b84d7b269dd479958.setContent(html_ffb4efaa7b6341af9482bafbc07d187f);
+        
+
+        marker_9a522e73d97644a08db10d5bc9531e31.bindPopup(popup_f7ba77a339e6434b84d7b269dd479958)
+        ;
+
+        
+    
+    
+            var marker_b0cf6b269efc4e4db8e46a545eb908e8 = L.marker(
+                [52.2480606, 8.6304417],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_36ed031e264f4d3cbd2fcab4197828c9 = L.popup({"maxWidth": 200});
+
+        
+            var html_239c1984e9a64cba9bc8a5ce9eb6747a = $(`<div id="html_239c1984e9a64cba9bc8a5ce9eb6747a" style="width: 100.0%; height: 100.0%;">Poggenbreede 65, Kirchlengern<br>Steht unter dem carport.ich Spende auch einen Maxi Cosi. </div>`)[0];
+            popup_36ed031e264f4d3cbd2fcab4197828c9.setContent(html_239c1984e9a64cba9bc8a5ce9eb6747a);
+        
+
+        marker_b0cf6b269efc4e4db8e46a545eb908e8.bindPopup(popup_36ed031e264f4d3cbd2fcab4197828c9)
+        ;
+
+        
+    
+    
+            var marker_d08c0f2b9b2c4413a1e63cd9a52718ad = L.marker(
+                [52.2158868, 8.499399627975308],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_d8d9ce65e16b4c4baafc1f647125234c = L.popup({"maxWidth": 200});
+
+        
+            var html_09a9a46c07994a26b5745d982b218a63 = $(`<div id="html_09a9a46c07994a26b5745d982b218a63" style="width: 100.0%; height: 100.0%;">Holser Straße 35, Rödinghausen</div>`)[0];
+            popup_d8d9ce65e16b4c4baafc1f647125234c.setContent(html_09a9a46c07994a26b5745d982b218a63);
+        
+
+        marker_d08c0f2b9b2c4413a1e63cd9a52718ad.bindPopup(popup_d8d9ce65e16b4c4baafc1f647125234c)
+        ;
+
+        
+    
+    
+            var marker_90ed8f2e03f4464c824efb647235402a = L.marker(
+                [52.1814864, 8.577736434464027],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_de2895288bdd437db046ff990aeac8f6 = L.popup({"maxWidth": 200});
+
+        
+            var html_60f379a0fe8448beab68007cc6b43651 = $(`<div id="html_60f379a0fe8448beab68007cc6b43651" style="width: 100.0%; height: 100.0%;">Parlerstr .8, Bünde</div>`)[0];
+            popup_de2895288bdd437db046ff990aeac8f6.setContent(html_60f379a0fe8448beab68007cc6b43651);
+        
+
+        marker_90ed8f2e03f4464c824efb647235402a.bindPopup(popup_de2895288bdd437db046ff990aeac8f6)
+        ;
+
+        
+    
+    
+            var marker_42d10f4b85d341aaa4f30470cd8e6bfd = L.marker(
+                [52.2142179, 8.7619646],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_66455038e9fb4f51813ff14de266f373 = L.popup({"maxWidth": 200});
+
+        
+            var html_b9d86a5b5f534dc085ac3f1d82825fe4 = $(`<div id="html_b9d86a5b5f534dc085ac3f1d82825fe4" style="width: 100.0%; height: 100.0%;">Radbrink 1, Löhne</div>`)[0];
+            popup_66455038e9fb4f51813ff14de266f373.setContent(html_b9d86a5b5f534dc085ac3f1d82825fe4);
+        
+
+        marker_42d10f4b85d341aaa4f30470cd8e6bfd.bindPopup(popup_66455038e9fb4f51813ff14de266f373)
+        ;
+
+        
+    
+    
+            var marker_e754747a18704c72898e496e42d8f7dd = L.marker(
+                [52.13331805, 8.559859283419016],
+                {}
+            ).addTo(map_4e22237c5f8d4f39af10b4b70cf1e894);
+        
+    
+        var popup_2a4fcf0a12b84fb4b0c5f0af6cde9f1d = L.popup({"maxWidth": 200});
+
+        
+            var html_1e81f57002e04565b29ebee191f6be7e = $(`<div id="html_1e81f57002e04565b29ebee191f6be7e" style="width: 100.0%; height: 100.0%;">Bogenstr 6, Enger<br>2 - 3 blaue Säcke , steht an der Straße</div>`)[0];
+            popup_2a4fcf0a12b84fb4b0c5f0af6cde9f1d.setContent(html_1e81f57002e04565b29ebee191f6be7e);
+        
+
+        marker_e754747a18704c72898e496e42d8f7dd.bindPopup(popup_2a4fcf0a12b84fb4b0c5f0af6cde9f1d)
+        ;
+
+        
+    
+</script>
